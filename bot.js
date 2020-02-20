@@ -1,5 +1,8 @@
-//This script will be run from a secondary Gmail account, preferable one that shares no details about you. 
-//You will forward emails to this account from your primary email addresses. If an email is forwarded from one of your accounts,
+//This script should probably be run from a secondary Gmail account, preferable one that shares no details about you. 
+//As of now, you will have to receive an email from the scammer to the account this bot is running on. You can
+//try to send a reply to the scammer from a different account to cause this (ex. maually send one email to the scammer from
+//the secondary account). 
+//In the future, you will be able to forward emails to this account from your primary email addresses. If an email is forwarded from one of your accounts,
 //the bot will engage the spammer, and not you. All other emails coming into the bot will be treated as spam, and the bot will reply to it's sender. 
 
 //Input your primary email addresses below:
